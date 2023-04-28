@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 7</title>
+    <meta charset="utf-8">
+    <meta name="'viewport" content="width=device-width,
+    initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .bg-1 {
+
+            background-color: #1abc9c;
+            color: #ffffff;
+
+        }
+
+        .bg-2 {
+
+            background-color: gray;
+            color: #ffffff;
+
+        }
+
+        .bg-3 {
+
+            background-color: #ffffff;
+            color: gray;
+
+        }
+        .bg-4{
+            background-color:#2f2f2f;
+            color: #ffffff;
+        }
+
+       .contain-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .navbar{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+
+        .navbar-nav li a:hover{
+            color:#1abc9c !important;
+        }
+
+        body {
+            font: 20px "Montserrat", sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+
+        .p{font-size: 16px}
+
+        .margin{
+            margin-bottom: 45px;
+        }
+
+           
+    </style>
+</head>
+<!--주석다는 방법-->
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">WHO</a></li>
+                    <li><a href="#">WHAT</a></li>
+                    <li><a href="#">WHERE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="contain-fluid bg-1 text-center">
+        <h3>Who Am I?</h3>
+        <img src="bird.jpg" alt="Bird" class="img-circle">
+        <h3>I'm an adventurer</h3>
+    </div>
+
+    <div class="contain-fluid bg-2 text-center">
+        <h3>What am I?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet vitae metus at porta. Etiam porta
+            libero magna, eget porta purus convallis at. Duis rutrum leo id molestie scelerisque. Fusce tristique
+            suscipit augue, et viverra orci ullamcorper sollicitudin. Nunc facilisis massa vitae euismod cursus. Etiam
+            varius metus pellentesque, dictum elit feugiat, egestas ante. Vivamus non dui vitae felis tempor imperdiet
+            eu posuere quam. ullam dignissim magna ac enim convallis, vel lobortis mauris dignissim. </p>
+            <a href="#" class="btn btn-default
+            btn-lg"><span class="glyphicon glyphicon-search"></span>Search</a>
+    </div>
+
+    <div class="contain-fluid bg-3 text-center">
+        <h3>Where To Find Me?</h3>
+        <div dlass="row">
+            <div class="col-sm-4">
+
+                <p> Aenean laoreet vitae metus at porta. Etiam porta libero magna, eget porta purus convallis at. </p>
+                <img src="bird1.jpg" width="100%" height="100%">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta libero magna. </p>
+                <img src="bird2.jpg" width="100%" height="100%">
+            </div>
+            <div class="col-sm-4">
+                <p> Aenean laoreet vitae metus at porta. Etiam porta libero magna, eget porta purus convallis at. </p>
+                <img src="bird3.jpg" idth="100%" height="100%">
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+        <p>Bootstrap Theme Made By <a href=#> Kyeong-Bin Park </a></p>
+    </footer>
+
+</body>
+
+</html>
